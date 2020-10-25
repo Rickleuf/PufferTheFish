@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" source="Tilesets/Coins.tsx"/>
+ <tileset firstgid="2" source="Tilesets/End.tsx"/>
+ <tileset firstgid="3" source="Tilesets/Enemy.tsx"/>
+ <tileset firstgid="7" source="Tilesets/Lives.tsx"/>
+ <tileset firstgid="8" source="Tilesets/Platforms.tsx"/>
+ <layer id="1" name="Platforms" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2E0KgCAQBlDvUuuC7n+4DIra9ENQjfkezEZQZL6NTkoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdLmGubaGm+t7Z+/tYzX1q8/VFHb2H8kiDlnEIYs4ZBHD8q6Rxf/JIo6aszj7Rx39256qWrOYtOm4N+13VyvWldmB2cJ7RjoPE4E=
+  </data>
+ </layer>
+ <layer id="2" name="End" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDCCFvxrRAQHhLTvnkUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3+X2AAAAAPBKDTtc146PAEs=
+  </data>
+ </layer>
+ <layer id="3" name="Coins" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1yEOADAIA0D2/0/jZ8hIIBN3rshWEQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD85jzeAQAAKvc/UWVm2aNPV8CGBPJwAAs=
+  </data>
+ </layer>
+ <layer id="6" name="Spikes" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztxzENAAAIA7A9+MS/CkSQ7Gq/JgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0TLKfA9BxbCcBlQ==
+  </data>
+ </layer>
+ <layer id="4" name="Enemy" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAIA7CD/Tsb4yhbgiUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcMu0A8BrC6lsAAQ=
+  </data>
+ </layer>
+ <layer id="5" name="Lives" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztziEBAAAMAjDc+ze+JgFmS7AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgKVbBwAoD8NoAAg=
+  </data>
+ </layer>
+</map>

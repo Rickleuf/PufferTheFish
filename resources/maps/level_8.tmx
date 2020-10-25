@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" source="Tilesets/Coins.tsx"/>
+ <tileset firstgid="2" source="Tilesets/End.tsx"/>
+ <tileset firstgid="3" source="Tilesets/Enemy.tsx"/>
+ <tileset firstgid="7" source="Tilesets/Lives.tsx"/>
+ <tileset firstgid="8" source="Tilesets/Platforms.tsx"/>
+ <layer id="1" name="Platforms" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2E0OgjAQBtCeRV2j4f6HU2JM3NTSpPb3vWQ2sKBMmQ9CCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMxq7/wYQO9kF/+yRwpKmP1Z2hLnZ7//3lxCPNOOurZbGoMxu28yri8yjhQzmUfG9UXGrcuslaOXUI95K0MfoS4zl0/PoL3V5zB1/6v3pzb/rzhr9NlMrf9RZRV8yB5qaZld24nry546jr24v+oWZE9r33uh33Gjf3fBaH69G1RelfAE6qsi+g==
+  </data>
+ </layer>
+ <layer id="2" name="End" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6DP/qGN8TkhAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8MG0AwAAAAAAAAAAAAAAAHDEAgNnAAM=
+  </data>
+ </layer>
+ <layer id="3" name="Coins" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENACAIBEDcf2kn0MJoFLzracjnIQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGCflnAWAH7jbgKV6DRWyQ4ZyClQmY4D4GXu1B72CABAZv5ZRmSDk+QLuEH3AADMdZ7qAA8=
+  </data>
+ </layer>
+ <layer id="6" name="Spikes" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2LENACAQAkAa93T/KT5OYCkmdwkNA1CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANBgJfvk1gH8yMYBAAAA0Mx/BbxgewAAALoNAyEGUQ==
+  </data>
+ </layer>
+ <layer id="4" name="Enemy" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2rEJAAAIBLEH99/ZBQRthaS7HS4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4pZYGAAAAAAAAAABg5r8CALhp648ADQ==
+  </data>
+ </layer>
+ <layer id="5" name="Lives" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7B9+HeMjAXSKmgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcNu0AwAAAAAAAAC8snIHAAg=
+  </data>
+ </layer>
+</map>

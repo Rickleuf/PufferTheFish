@@ -383,7 +383,7 @@ class GameOverView(arcade.View):
 
         arcade.draw_text("GAME OVER", SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2,
                          arcade.color.WHITE, font_size=50, anchor_x="center")
-        arcade.draw_text("Click to try again", SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2-75,
+        arcade.draw_text("Click or press enter to try again", SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2-75,
                          arcade.color.WHITE, font_size=20, anchor_x="center")
 
         time_taken_formatted = f"{round(self.time_taken, 2)} seconds"
@@ -407,6 +407,12 @@ class GameOverView(arcade.View):
 
         level_total = f"Level: {self.level}/{LEVELS}"
         arcade.draw_text(level_total, 10, 28, arcade.color.WHITE, 14)
+
+    def on_key_press(self, key, _modifiers):
+        if key == arcade.key.ENTER:  # Opnieuw beginnen
+            game_view = GameView()
+            game_view.setup(game_view.level)
+            self.window.show_view(game_view)
 
     def on_mouse_press(self, _x, _y, _button, _modifiers):
         #Als op de muis geklikt word de game gerestart.
@@ -493,7 +499,7 @@ class GameFinishView(arcade.View):
                          arcade.color.GRAY,
                          font_size=15,
                          anchor_x="center")
-        total_score = int(self.score * self.level / self.time_taken * 3.141592653589793 * 100)
+        total_score = int(self.score * (LEVELS+1) / self.time_taken * 3.141592653589793 * 100)
 
         arcade.draw_text(f"Total Score: {total_score}",
                          SCREEN_WIDTH/2,

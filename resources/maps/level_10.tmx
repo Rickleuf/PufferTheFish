@@ -7,7 +7,7 @@
  <tileset firstgid="8" source="Tilesets/Platforms.tsx"/>
  <layer id="1" name="Platforms" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt2UsOABEQBUBncv/DzV4IMr9GVSIWdq2fCCkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAP3IxgDEz2amty957ytrWBuvq7WUuZqBNTqCvlRP5ic/eAbtwbgEReWvjdDLA6WTgWTNvGOrN7vT4nJF/8dG/crUnktF+dCf5xt3zBVam32O5APWnETE=
+   eJzt2UEKgCAQBdDO5P0P1z4Ux6yY9D0QF+7G+SJ6HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwIxSGUCM7MA9I9mprcvee2r3AvVeR28vy2UG2uQE+lo5kZ/87B2wCucWkJG3NnYnA+xOBp418oah3qxOj4+J/ItH/8rVnkyi/ehO8o3Z8wX+TL/ncgL7kBIr
   </data>
  </layer>
  <layer id="2" name="End" width="100" height="100">
@@ -22,7 +22,7 @@
  </layer>
  <layer id="6" name="Spikes" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt2SsOACEMBcAaLrQn4v6nIIh1CBISvjPJM1UVbU0jAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAEV8j7CtF5NU9wInsDgAAAAAAvM2vgNfZAYA91Hv8p6cOtzHjADBXAYe4BVI=
+   eJzt2SkSADEIBMAx+ef+/xWpiPhVueiuwqAQDIYEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgjpZ8u2eAG8kOAAAAAADU5ldAdTIAcIZxj2f96cNr7DgArNUBgc8EWA==
   </data>
  </layer>
  <layer id="4" name="Enemy" width="100" height="100">
